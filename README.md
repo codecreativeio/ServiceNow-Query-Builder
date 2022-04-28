@@ -1,6 +1,6 @@
 # ServiceNow Query Builder
 
-🟡 This project is use at your own risk. It will work in production but it is not officially released.
+🟢 This project is production ready.
 
 ## About
 
