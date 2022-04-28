@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb.where</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Creates a filter query expression similar to behavior provided by GlideRecord.addQuery with a few assumptions:&#13;
+- If one argument is passed, assume it is a complete encoded query expression similar to GlideRecord.addEncodedQuery&#13;
+- If two arguments, assume the operator is "="&#13;
+- If three arguments are passed, assume the first is the field name, the second is the operator, and the third is the value&#13;
+- If more than three arguments are passed, join the arguments together as a string</description>
+        <name>where</name>
+        <script><![CDATA[var where = function() {
+	var args = Array.prototype.slice.call(arguments);
+	var field;
+	var operation;
+	var value;
+	
+	if (args.length == 1) {
+		// Assume encoded query string provided
+		return args[0];
+	}
+	else if (args.length == 2) {
+		// Assume an "equals" operator
+		return args[0] + '=' + args[1];
+	}
+	else {
+		return args.join('');
+	}
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-28 14:30:32</sys_created_on>
+        <sys_id>b81b214b870f8110a937fcc7cebb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>where</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_b81b214b870f8110a937fcc7cebb3511</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-28 14:30:32</sys_updated_on>
+    </sys_script_include>
+</record_update>

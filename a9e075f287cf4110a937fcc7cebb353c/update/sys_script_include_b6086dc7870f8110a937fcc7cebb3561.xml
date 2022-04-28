@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb.matchOneSubquery</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Alias for "nq" function</description>
+        <name>matchOneSubquery</name>
+        <script><![CDATA[var matchOneSubquery = nq;]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-28 14:08:50</sys_created_on>
+        <sys_id>b6086dc7870f8110a937fcc7cebb3561</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>matchOneSubquery</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_b6086dc7870f8110a937fcc7cebb3561</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-28 14:31:20</sys_updated_on>
+    </sys_script_include>
+</record_update>
