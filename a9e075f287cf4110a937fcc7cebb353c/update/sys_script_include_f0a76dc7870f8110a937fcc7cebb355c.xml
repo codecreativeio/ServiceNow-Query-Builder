@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb.nq</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a filter query expression where arguments are subexpressions that are joined by a ^NQ condition</description>
+        <name>nq</name>
+        <script><![CDATA[var nq = function() {
+	var args = Array.prototype.slice.call(arguments);
+	return args.join('^NQ');
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-28 14:07:37</sys_created_on>
+        <sys_id>f0a76dc7870f8110a937fcc7cebb355c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>nq</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_f0a76dc7870f8110a937fcc7cebb355c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-28 14:32:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
