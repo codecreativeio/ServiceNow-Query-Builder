@@ -2,26 +2,25 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_0505_cc_queryb.where</api_name>
+        <api_name>x_0505_cc_queryb.hours</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>Creates a filter query expression by joining expressions together</description>
-        <name>where</name>
-        <script><![CDATA[var where = function() {
-	var args = Array.prototype.slice.call(arguments);
-	return args.join('');
+        <description>Date Part function for date comparisons</description>
+        <name>hours</name>
+        <script><![CDATA[var hours = function() {
+	return 'hour';
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-04-28 14:30:32</sys_created_on>
-        <sys_id>b81b214b870f8110a937fcc7cebb3511</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>where</sys_name>
+        <sys_created_on>2022-04-28 20:19:33</sys_created_on>
+        <sys_id>05dcb6838703c110a937fcc7cebb3501</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>hours</sys_name>
         <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
-        <sys_update_name>sys_script_include_b81b214b870f8110a937fcc7cebb3511</sys_update_name>
+        <sys_update_name>sys_script_include_05dcb6838703c110a937fcc7cebb3501</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-28 20:00:49</sys_updated_on>
+        <sys_updated_on>2022-04-28 20:24:10</sys_updated_on>
     </sys_script_include>
 </record_update>
