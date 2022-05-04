@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb._GlideSystemDates</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Internal use only: Used to identify GlideSystem Defined Dates</description>
+        <name>_GlideSystemDates</name>
+        <script><![CDATA[var _GlideSystemDates = {
+	'Today': 'Today',
+	'Yesterday': 'Yesterday',
+	'Tomorrow': 'Tomorrow',
+	'ThisWeek': 'ThisWeek',
+	'LastWeek': 'LastWeek',
+	'NextWeek': 'NextWeek',
+	'ThisMonth': 'ThisMonth',
+	'LastMonth': 'LastMonth',
+	'NextMonth': 'NextMonth',
+	'Last3Months': 'Last3Months',
+	'Last6Months': 'Last6Months',
+	'Last9Months': 'Last9Months',
+	'Last12Months': 'Last12Months',
+	'ThisQuarter': 'ThisQuarter',
+	'LastQuarter': 'LastQuarter',
+	'Last2Quarters': 'Last2Quarters',
+	'NextQuarter': 'NextQuarter',
+	'Next2Quarters': 'Next2Quarters',
+	'ThisYear': 'ThisYear',
+	'NextYear': 'NextYear',
+	'LastYear': 'LastYear',
+	'Last2Years': 'Last2Years',
+	'Last7Days': 'Last7Days',
+	'Last30Days': 'Last30Days',
+	'Last60Days': 'Last60Days',
+	'Last90Days': 'Last90Days',
+	'Last120Days': 'Last120Days',
+	'CurrentHour': 'CurrentHour',
+	'LastHour': 'LastHour',
+	'Last2Hours': 'Last2Hours',
+	'CurrentMinute': 'CurrentMinute',
+	'LastMinute': 'LastMinute',
+	'Last15Minutes': 'Last15Minutes',
+	'Last30Minutes': 'Last30Minutes',
+	'Last45Minutes': 'Last45Minutes',
+	'OneYearAgo': 'OneYearAgo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-29 00:55:27</sys_created_on>
+        <sys_id>691b7fcb8783c110a937fcc7cebb35a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>_GlideSystemDates</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_691b7fcb8783c110a937fcc7cebb35a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-29 01:04:25</sys_updated_on>
+    </sys_script_include>
+</record_update>
