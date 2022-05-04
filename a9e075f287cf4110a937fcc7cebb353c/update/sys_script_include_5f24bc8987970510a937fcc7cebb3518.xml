@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb.isEmpty</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a filter query expression when a field should be empty</description>
+        <name>isEmpty</name>
+        <script><![CDATA[var isEmpty = function() {
+	return 'ISEMPTY';
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-04 15:29:23</sys_created_on>
+        <sys_id>5f24bc8987970510a937fcc7cebb3518</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>isEmpty</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_5f24bc8987970510a937fcc7cebb3518</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-04 15:31:49</sys_updated_on>
+    </sys_script_include>
+</record_update>
