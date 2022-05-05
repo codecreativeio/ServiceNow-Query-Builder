@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_queryb.trendsAfter</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a filter query expression when a date field should occurs after a specific day of the week, month of the year, quarter, year, or hour of the day</description>
+        <name>trendsAfter</name>
+        <script><![CDATA[var trendsAfter = function(dateTerm) {
+	var dateObj = _TrendDates[dateTerm];
+	
+	if (!dateObj) {
+		throw new Error('x_0505_cc_queryb.trendsAfter Trend term not found');
+	}
+	
+	return 'DATEPART' + dateTerm + '@javascript:gs.datePart("' + dateObj.datepart + '","' + dateObj.value + '","' + 'GT' + '")';
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-05 01:03:33</sys_created_on>
+        <sys_id>93a7fa81871f0510a937fcc7cebb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trendsAfter</sys_name>
+        <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
+        <sys_update_name>sys_script_include_93a7fa81871f0510a937fcc7cebb353a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-05 01:03:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

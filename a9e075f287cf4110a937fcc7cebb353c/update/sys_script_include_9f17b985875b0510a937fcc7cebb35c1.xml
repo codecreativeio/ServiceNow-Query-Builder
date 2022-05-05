@@ -2,25 +2,25 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_0505_cc_queryb.isLessThan</api_name>
+        <api_name>x_0505_cc_queryb.isSameHourAs</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>Returns a filter query expression when a field is less than a value </description>
-        <name>isLessThan</name>
-        <script><![CDATA[var isLessThan = function(value, datepart, beforeOrAfter, datefield) {
-	return '<' + value;
+        <description>Returns a filter query expression when a date field occurs in the same hour as another date field</description>
+        <name>isSameHourAs</name>
+        <script><![CDATA[var isSameHourAs = function(field) {
+	return isSameAs(field) + '@hour';
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-04 15:47:50</sys_created_on>
-        <sys_id>2358308d87970510a937fcc7cebb3559</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>isLessThan</sys_name>
+        <sys_created_on>2022-05-04 20:21:28</sys_created_on>
+        <sys_id>9f17b985875b0510a937fcc7cebb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>isSameHourAs</sys_name>
         <sys_package display_value="CodeCreative Query Builder" source="x_0505_cc_queryb">a9e075f287cf4110a937fcc7cebb353c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CodeCreative Query Builder">a9e075f287cf4110a937fcc7cebb353c</sys_scope>
-        <sys_update_name>sys_script_include_2358308d87970510a937fcc7cebb3559</sys_update_name>
+        <sys_update_name>sys_script_include_9f17b985875b0510a937fcc7cebb35c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-04 20:32:49</sys_updated_on>
+        <sys_updated_on>2022-05-04 20:21:28</sys_updated_on>
     </sys_script_include>
 </record_update>
